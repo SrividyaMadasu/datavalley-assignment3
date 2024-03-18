@@ -24,11 +24,11 @@ class Product implements Serializable {
 
 public class Main {
     public static void main(String[] args) {
-        // Serialize the Product object
+        
         Product product = new Product(101, "Laptop", "Electronics", 999.99);
         serializeProduct(product);
 
-        // Deserialize the Product object
+        
         Product deserializedProduct = deserializeProduct();
         System.out.println("Deserialized Product Details:");
         deserializedProduct.printDetails();
