@@ -24,15 +24,15 @@ public class Main {
         Animal animal = new Animal();
         Dog dog = new Dog();
 
-        // Method overloading example
-        animal.makeSound();  // Some generic sound
-        animal.makeSound("Meow");  // Meow
-
-        dog.makeSound();  // Woof
-        dog.makeSound(100);  // Woof at frequency: 100
         
-        // Method overriding example
-        animal = new Dog(); // Polymorphism
-        animal.makeSound(); // Woof
+        animal.makeSound();  
+        animal.makeSound("Meow");
+
+        dog.makeSound();  
+        dog.makeSound(100);  
+        
+        
+        animal = new Dog(); 
+        animal.makeSound(); 
     }
 }
